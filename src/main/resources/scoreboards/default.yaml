@@ -1,0 +1,33 @@
+# =============================
+# scoreX Scoreboard Example
+# =============================
+#
+# title: The title of the scoreboard. Use {animation} for animated titles.
+# animated_titles: List of animated titles (optional, used if {animation} is in title)
+# lines: List of lines to display on the scoreboard. Supports placeholders.
+#
+# Placeholders:
+#   %player_name% - Player's name
+#   %vault_eco_balance% - Player's balance (Vault)
+#   %server_online% - Online player count
+#   %player_world% - Player's world
+#   %player_ping% - Player's ping
+#   ...and all PlaceholderAPI placeholders if enabled
+# EACH LINE SHOULD NOT CONTAIN MORE THAN 40 CHARACTERS
+title: "&b&lScoreX &7- &f{animation}"
+animation: welcome
+lines:
+  - "&b&lScoreX &7- &fUltimate Plugin!"
+  - "&aYou are using &bScoreX &afor your server."
+  - "&7Version: &f%scorex_version%"
+  - "&eDeveloped by &bMoonIsaa &efor the community."
+  - "&7Thank you for choosing &bScoreX&7!"
+  - "&aPlayer: &f%player_name%"
+  - "&eBalance: &f%vault_eco_balance%"
+  - "&bOnline: &f%server_online%"
+  - "&dWorld: &f%player_world%"
+  - "&6Ping: &f%player_ping% ms"
+  - "&7Enjoy the power of &bScoreX&7!"
+max_lines: 20
+max_title_length: 32
+allow_custom_lines: true

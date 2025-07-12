@@ -1,0 +1,55 @@
+#########################################################
+# scoreX Scoreboard - Ultimate Customization Example     #
+#########################################################
+# title: The title of the scoreboard. Use {animation} for animated titles.
+# animated_titles: List of animated titles (optional, used if {animation} is in title)
+# animation_settings:
+#   interval: Animation update interval in ticks (default: 20)
+#   mode: 'loop' (default), 'bounce', or 'random'
+#   per_player: true/false (allow each player to have their own animation mode)
+# lines: List of lines to display on the scoreboard. Supports placeholders.
+# max_lines: Maximum number of lines for this scoreboard
+# max_title_length: Maximum title length for this scoreboard
+# allow_custom_lines: Allow players to override lines (true/false)
+#
+# Placeholders:
+#   %player_name% - Player's name
+#   %vault_eco_balance% - Player's balance (Vault)
+#   %server_online% - Online player count
+#   %player_world% - Player's world
+#   %player_ping% - Player's ping
+#   %player_health% - Player's health
+#   %player_max_health% - Player's max health
+#   %player_gamemode% - Player's gamemode
+#   %player_level% - Player's XP level
+#   %player_uuid% - Player's UUID
+#   %server_tps% - Server TPS (if PlaceholderAPI)
+#   ...and all PlaceholderAPI placeholders if enabled
+
+title: "{animation}"
+animated_titles:
+  - "&bscoreX"
+  - "&cscoreX &7| &a%player_name%"
+  - "&dscoreX &7- &e%server_online% online"
+  - "&6scoreX &7- &b%vault_eco_balance% coins"
+  - "&a&lS&b&lc&c&lo&d&lr&es&f&l!"
+animation_settings:
+  interval: 20
+  mode: loop
+  per_player: true
+lines:
+  - "&aWelcome, &f%player_name%!"
+  - "&eBalance: &f%vault_eco_balance%"
+  - "&bOnline: &f%server_online%"
+  - "&dWorld: &f%player_world%"
+  - "&6Ping: &f%player_ping% ms"
+  - "&cHealth: &f%player_health%/&f%player_max_health%"
+  - "&eGamemode: &f%player_gamemode%"
+  - "&aLevel: &f%player_level%"
+  - "&7UUID: &f%player_uuid%"
+  - "&dTPS: &f%server_tps%"
+  - "&7scoreX is &acool!"
+max_lines: 15
+max_title_length: 32
+allow_custom_lines: true
+

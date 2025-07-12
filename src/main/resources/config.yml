@@ -1,0 +1,31 @@
+#########################################################
+# scoreX Configuration - Ultimate Customization Example  #
+#########################################################
+# language: Language file to use from lang/ (without .yaml)
+# scoreboard: Default scoreboard file from scoreboards/ (without .yaml)
+# animation_interval: How often to update the scoreboard animation (ticks, 20 = 1 second)
+# refresh_interval: How often to refresh the scoreboard lines (ticks, 20 = 1 second)
+# hide_in_worlds: List of world names where the scoreboard will be hidden
+# use_placeholderapi: Enable PlaceholderAPI integration (true/false)
+# use_vault: Enable Vault integration (true/false)
+# scoreboard_enabled: Show scoreboard by default for new players (true/false)
+# allow_per_player_scoreboard: Allow players to set their own scoreboard (true/false)
+# allow_custom_lines: Allow players to set their own scoreboard lines (true/false)
+# default_custom_lines: Default custom lines for new players (overrides scoreboard lines if set)
+# max_lines: Maximum number of lines per scoreboard
+# max_title_length: Maximum length of scoreboard title
+
+language: en
+scoreboard: default
+animation_interval: 20
+refresh_interval: 20
+hide_in_worlds: []
+use_placeholderapi: true
+use_vault: true
+scoreboard_enabled: true
+allow_per_player_scoreboard: true
+allow_custom_lines: true
+default_custom_lines: []
+max_lines: 15
+max_title_length: 32
+debug_mode: false

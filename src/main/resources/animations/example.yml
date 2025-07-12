@@ -1,0 +1,13 @@
+# Example animation for ScoreX
+welcome:
+  interval: 10
+  frames:
+    - "&bWelcome to &aScoreX!"
+    - "&aEnjoy your &bscoreboard!"
+    - "&eCustomize &dwith &6ScoreX!"
+scorex_pulse:
+  interval: 5
+  frames:
+    - "&bS&cC&dO&eR&fX"
+    - "&cS&dC&eO&fR&bX"
+    - "&dS&eC&fO&bR&cX"
