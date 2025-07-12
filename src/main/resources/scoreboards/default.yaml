@@ -18,9 +18,9 @@ title: "&b&lScoreX &7- &f{animation}"
 animation: welcome
 lines:
   - "&b&lScoreX &7- &fUltimate Plugin!"
-  - "&aYou are using &bScoreX &afor your server."
-  - "&7Version: &f%scorex_version%"
-  - "&eDeveloped by &bMoonIsaa &efor the community."
+  - "&ausing &bScoreX &afor your server."
+  - "&7V: &f%scorex_version%"
+  - "&bMoonIsaa &efor the community."
   - "&7Thank you for choosing &bScoreX&7!"
   - "&aPlayer: &f%player_name%"
   - "&eBalance: &f%vault_eco_balance%"
